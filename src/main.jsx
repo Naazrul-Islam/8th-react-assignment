@@ -1,14 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
-import Root from './coponents/Root.jsx';
-import Home from './assets/Page/Home.jsx';
-import Apps from './assets/Page/Apps.jsx';
-import Installation from './assets/Page/Installation.jsx';
-import detailsApplication from './assets/Page/detailsApplication.jsx';
+import Root from "./coponents/Root.jsx";
+import Home from "./Page/Home.jsx";
+import Apps from "./Page/Apps.jsx";
+import Installation from "./Page/Installation.jsx";
+import DetailsApplication from "./Page/detailsApplication.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,17 +30,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/apps/:id",
-        
-        Component: detailsApplication,
-      }
+
+        Component: DetailsApplication,
+      },
     ],
   },
 ]);
 
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />,
-
-  </StrictMode>,
-)
+  </StrictMode>
+);

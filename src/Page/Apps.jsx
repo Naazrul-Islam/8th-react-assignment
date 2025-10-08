@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
-import useApplication from "../../coponents/useApplication";
-import AllApps from "../../coponents/AllApps";
-import ApplicationError from "../../coponents/ApplicationError";
+import useApplication from "../coponents/useApplication";
+import AllApps from "../coponents/AllApps";
+import ApplicationError from "../coponents/ApplicationError";
 
 const Apps = () => {
   const { application, loading, error } = useApplication();
-  console.log(application);
+
   const [search, setSearch] = useState("");
   const trim = search.trim().toLowerCase();
   const searchApplication = trim
     ? application.filter((singleApplication) =>
         singleApplication.title.toLowerCase().includes(trim)
-    
       )
     : application;
-    console.log(searchApplication);
-    if (loading) return <p>Loading...</p>;
+
+  if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
-    
+
   return (
     <div className="max-w-[1440px] mx-auto my-10">
       <div className="flex flex-col items-center justify-center  p-4 my-10 gap-5">
@@ -51,8 +50,8 @@ const Apps = () => {
           ))
         ) : (
           <div className="col-span-full flex items-center justify-center">
-      <ApplicationError onShowAll={() => setSearch("")} />
-    </div>
+            <ApplicationError onShowAll={() => setSearch("")} />
+          </div>
         )}
       </div>
     </div>
