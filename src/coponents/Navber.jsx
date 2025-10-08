@@ -29,13 +29,40 @@ const Navber = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#632EE3] font-semibold border-b-2 border-[#632EE3]"
+                    : "text-gray-600 hover:text-[#632EE3]"
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/apps">Apps</NavLink>
+              <NavLink
+                to="/apps"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#632EE3] font-semibold border-b-2 border-[#632EE3]"
+                    : "text-gray-600 hover:text-[#632EE3]"
+                }
+              >
+                Apps
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/installation">Installation</NavLink>
+              <NavLink
+                to="/installation"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#632EE3] font-semibold border-b-2 border-[#632EE3]"
+                    : "text-gray-600 hover:text-[#632EE3]"
+                }
+              >
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -50,18 +77,51 @@ const Navber = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#632EE3] font-semibold border-b-2 border-[#632EE3]"
+                  : "text-gray-600 hover:text-[#632EE3]"
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/apps">Apps</NavLink>
+            <NavLink
+              to="/apps"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#632EE3] font-semibold border-b-2 border-[#632EE3]"
+                  : "text-gray-600 hover:text-[#632EE3]"
+              }
+            >
+              Apps
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/installation">Installation</NavLink>
+            <NavLink
+              to="/installation"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#632EE3] font-semibold border-b-2 border-[#632EE3]"
+                  : "text-gray-600 hover:text-[#632EE3]"
+              }
+            >
+              Installation
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn  text-white bg-[linear-gradient(90deg,#632EE3_0%,#9F62F2_100%)]" href="https://github.com/"><FaGithub />Contribute</a>
+        <a
+          className="btn  text-white bg-[linear-gradient(90deg,#632EE3_0%,#9F62F2_100%)]"
+          href="https://github.com/"
+        >
+          <FaGithub />
+          Contribute
+        </a>
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ import ApplicationCard from "./ApplicationCard";
 
 const TrendingApps = () => {
   const { application, loading, error } = useApplication();
-  console.log(application);
+  // console.log(application);
 
   const featureApplication = application.slice(0, 8);
-  console.log(featureApplication);
+  // console.log(featureApplication);
    if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
 
