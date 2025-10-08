@@ -8,7 +8,7 @@ import Root from "./coponents/Root.jsx";
 import Home from "./Page/Home.jsx";
 import Apps from "./Page/Apps.jsx";
 import Installation from "./Page/Installation.jsx";
-import DetailsApplication from "./Page/detailsApplication.jsx";
+import DetailsApplication from "./Page/DetailsApplication.jsx";
 
 const router = createBrowserRouter([
   {

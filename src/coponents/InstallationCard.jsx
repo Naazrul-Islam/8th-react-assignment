@@ -6,7 +6,7 @@ const InstallationCard = ({ app, handleUninstall }) => {
       <div className="flex gap-10">
         <div className="flex justify-between">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+            src={app.image}
             alt="Apps" className="w-[80px] h-[80px] rounded-lg"
           />
         </div>
