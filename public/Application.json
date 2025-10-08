@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/6wmhMzN/notecraft.png",
+    "title": "NoteCraft",
+    "companyName": "PixelSoft Ltd",
+    "description": "A lightweight and beautiful note-taking app with cloud sync and offline mode.",
+    "size": 45,
+    "reviews": 1234,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 88 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 551 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/5nv9C2g/fittrack.png",
+    "title": "FitTrack Pro",
+    "companyName": "ZenTech Studios",
+    "description": "Track your fitness goals, daily steps, and calories with smart AI insights.",
+    "size": 82,
+    "reviews": 2980,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 65 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1915 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/gFhkxFq/foodiesnap.png",
+    "title": "FoodieSnap",
+    "companyName": "TastyWorks Inc",
+    "description": "Discover recipes, share your meals, and get personalized diet plans.",
+    "size": 56,
+    "reviews": 870,
+    "ratingAvg": 4.4,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 32 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 318 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/NCCkRkC/taskmaster.png",
+    "title": "TaskMaster",
+    "companyName": "NextGen Apps",
+    "description": "Organize your work, manage projects, and stay productive across all devices.",
+    "size": 39,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 54 },
+      { "name": "2 star", "count": 76 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 630 },
+      { "name": "5 star", "count": 1240 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/CBgZj0L/musicflow.png",
+    "title": "MusicFlow",
+    "companyName": "Harmony Labs",
+    "description": "Stream and download your favorite songs, playlists, and podcasts in one place.",
+    "size": 70,
+    "reviews": 4320,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1280 },
+      { "name": "5 star", "count": 2230 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/QFwSK1G/photoblend.png",
+    "title": "PhotoBlend",
+    "companyName": "Visionary Co.",
+    "description": "Create stunning photo edits and AI-enhanced collages instantly.",
+    "size": 95,
+    "reviews": 1890,
+    "ratingAvg": 4.3,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/jDpXZxV/travelmate.png",
+    "title": "TravelMate",
+    "companyName": "ExploreNow Ltd",
+    "description": "Plan your trips, book hotels, and discover hidden travel gems worldwide.",
+    "size": 67,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1490 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/df4Hdbs/readify.png",
+    "title": "Readify",
+    "companyName": "BookNest",
+    "description": "Read thousands of eBooks, listen to audiobooks, and track your reading progress.",
+    "size": 60,
+    "reviews": 4100,
+    "ratingAvg": 4.8,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 890 },
+      { "name": "5 star", "count": 2840 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/0sFbS6Z/budgetbuddy.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinWise Inc",
+    "description": "Smart expense tracking and savings insights with AI-powered analytics.",
+    "size": 50,
+    "reviews": 1540,
+    "ratingAvg": 4.4,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 95 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 595 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/dGqZQ3v/learnly.png",
+    "title": "Learnly",
+    "companyName": "EduVerse",
+    "description": "An interactive learning platform offering video lessons, quizzes, and certificates.",
+    "size": 88,
+    "reviews": 5100,
+    "ratingAvg": 4.9,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 980 },
+      { "name": "5 star", "count": 3660 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/bmGzjBg/chatterbox.png",
+    "title": "ChatterBox",
+    "companyName": "WaveNet Inc",
+    "description": "A fast, secure chat app with voice, video, and file sharing features.",
+    "size": 75,
+    "reviews": 6400,
+    "ratingAvg": 4.7,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1450 },
+      { "name": "5 star", "count": 4010 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/6JFgk7P/weatherwise.png",
+    "title": "WeatherWise",
+    "companyName": "SkyLogic Labs",
+    "description": "Stay ahead of the weather with real-time forecasts, radar, and alerts.",
+    "size": 48,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/Xx5PFrP/langmaster.png",
+    "title": "LangMaster",
+    "companyName": "EduGrow",
+    "description": "Learn 25+ languages interactively through games, AI chat, and challenges.",
+    "size": 85,
+    "reviews": 2800,
+    "ratingAvg": 4.8,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1750 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/5f5BRBr/gamezone.png",
+    "title": "GameZone",
+    "companyName": "HyperPlay Studio",
+    "description": "All-in-one hub for discovering and downloading trending mobile games.",
+    "size": 120,
+    "reviews": 6200,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 1650 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/Nn3STcj/shoply.png",
+    "title": "Shoply",
+    "companyName": "Ecom Labs",
+    "description": "A modern shopping platform with secure payments and personalized offers.",
+    "size": 68,
+    "reviews": 3400,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/6RY9Z4N/soundscape.png",
+    "title": "SoundScape",
+    "companyName": "EchoWare",
+    "description": "Relax with soothing sounds, nature mixes, and deep sleep audio guides.",
+    "size": 52,
+    "reviews": 1750,
+    "ratingAvg": 4.5,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/vkQMnkt/cinemahub.png",
+    "title": "CinemaHub",
+    "companyName": "Streamify",
+    "description": "Watch trailers, track releases, and discover trending movies & series.",
+    "size": 90,
+    "reviews": 4600,
+    "ratingAvg": 4.7,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/5ht6xXf/medicare.png",
+    "title": "MediCare+",
+    "companyName": "HealthSync",
+    "description": "Book doctor appointments, track medicines, and access your reports online.",
+    "size": 77,
+    "reviews": 1900,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 590 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/4TNWX9f/creativity.png",
+    "title": "Creativity+",
+    "companyName": "IdeaWorks",
+    "description": "Unlock your creativity with daily challenges and design inspiration tools.",
+    "size": 63,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 470 },
+      { "name": "5 star", "count": 560 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/GMf4WzM/studybuddy.png",
+    "title": "StudyBuddy",
+    "companyName": "Learnify Ltd",
+    "description": "Collaborative study planner for students with reminders and goal tracking.",
+    "size": 54,
+    "reviews": 2150,
+    "ratingAvg": 4.6,
+    "downloads": 1050000,
+    "ratings": [
+      { "name": "1 star", "count": 95 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 680 },
+      { "name": "5 star", "count": 975 }
+    ]
+  }
+]
