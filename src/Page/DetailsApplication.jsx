@@ -30,7 +30,7 @@ const DetailsApplication = () => {
   const handleInstall = () => {
     saveInstalledApp(app);
     setInstall(true);
-    toast.success("App Uninstalled!");
+    toast.success("App Installed!");
   };
 
   

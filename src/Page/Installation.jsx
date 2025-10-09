@@ -21,7 +21,7 @@ const Installation = () => {
   const handleUninstall = (id) => {
     removeInstalledApp(id);
     setApps((prev) => prev.filter((app) => app.id !== id));
-    toast.success("App installed!");
+    toast.success("App Uninstalled!");
   };
 
   const handleSort = (type) => {
