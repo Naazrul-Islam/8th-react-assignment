@@ -7,8 +7,8 @@ const Root = () => {
     return (
         <div className='bg-[#F1F5E8]'>
            <Navber></Navber>
-           <Outlet></Outlet>
-           <Footer></Footer>
+           <div><Outlet></Outlet></div>
+           {/* <Footer></Footer> */}
         </div>
     );
 };

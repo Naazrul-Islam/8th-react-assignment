@@ -11,6 +11,9 @@ import Installation from "./Page/Installation.jsx";
 import DetailsApplication from "./Page/DetailsApplication.jsx";
 import Error from "./Page/Error.jsx";
 
+
+
+
 const router = createBrowserRouter([
   {
     path: "/",

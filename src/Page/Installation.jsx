@@ -6,6 +6,7 @@ import {
 } from "../localStorage/localStorage";
 import InstallationCard from "../coponents/InstallationCard";
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from "../coponents/Footer";
 
 const Installation = () => {
   const [apps, setApps] = useState([]);
@@ -71,6 +72,7 @@ const Installation = () => {
           <InstallationCard key={app.id} app={app} handleUninstall={handleUninstall}></InstallationCard>
         ))}
          <ToastContainer />
+         <Footer></Footer>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import { saveInstalledApp, getInstalledApps } from "../localStorage/localStorage
 import { ToastContainer, toast } from 'react-toastify';
 import AppReviewChart from "../coponents/AppReviewChart";
 import Description from "../coponents/Description";
+import Footer from "../coponents/Footer";
 
 const DetailsApplication = () => {
   const { id } = useParams();
@@ -41,6 +42,7 @@ const DetailsApplication = () => {
       <DetailsTop app={app} handleInstall={handleInstall} install={install} />
     <AppReviewChart app={app}></AppReviewChart>
     <Description app={app}></Description>
+    <Footer></Footer>
     </div>
     </>
     

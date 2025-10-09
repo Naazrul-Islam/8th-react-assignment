@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import useApplication from "../coponents/useApplication";
 import AllApps from "../coponents/AllApps";
 import ApplicationError from "../coponents/ApplicationError";
+import Footer from "../coponents/Footer";
 
 const Apps = () => {
   const { application, loading, error } = useApplication();
@@ -54,7 +55,9 @@ const Apps = () => {
           </div>
         )}
       </div>
+      <Footer></Footer>
     </div>
+    
   );
 };
 
