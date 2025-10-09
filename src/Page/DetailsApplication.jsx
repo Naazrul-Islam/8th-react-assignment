@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import AppReviewChart from "../coponents/AppReviewChart";
 import Description from "../coponents/Description";
 import Footer from "../coponents/Footer";
+import AnimatedSpinner from "../coponents/AnimatedSpinner";
 
 const DetailsApplication = () => {
   const { id } = useParams();
@@ -33,8 +34,8 @@ const DetailsApplication = () => {
   };
 
   
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error}</p>;
+  if (loading) return <AnimatedSpinner></AnimatedSpinner>;
+  if (error) return <Error></Error>;
 
   return (
     <>

@@ -1,29 +1,27 @@
 import React from "react";
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   getInstalledApps,
   removeInstalledApp,
 } from "../localStorage/localStorage";
 import InstallationCard from "../coponents/InstallationCard";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 import Footer from "../coponents/Footer";
 
 const Installation = () => {
   const [apps, setApps] = useState([]);
   const [sortType, setSortType] = useState("none");
   console.log(sortType);
-  
 
   useEffect(() => {
     const stored = getInstalledApps();
     setApps(stored);
   }, []);
 
-
   const handleUninstall = (id) => {
     removeInstalledApp(id);
     setApps((prev) => prev.filter((app) => app.id !== id));
-     toast.success("App installed!");
+    toast.success("App installed!");
   };
 
   const handleSort = (type) => {
@@ -49,7 +47,11 @@ const Installation = () => {
         </h1>
 
         <div className="dropdown dropdown-hover">
-          <div tabIndex={0} role="button" className="btn m-1 bg-blue-600 text-white">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn m-1 bg-blue-600 text-white"
+          >
             Sort By
           </div>
           <ul
@@ -69,10 +71,13 @@ const Installation = () => {
       {/* Cards */}
       <div className="gap-6 px-10">
         {apps.map((app) => (
-          <InstallationCard key={app.id} app={app} handleUninstall={handleUninstall}></InstallationCard>
+          <InstallationCard
+            key={app.id}
+            app={app}
+            handleUninstall={handleUninstall}
+          ></InstallationCard>
         ))}
-         <ToastContainer />
-         
+        <ToastContainer />
       </div>
       <Footer></Footer>
     </div>
@@ -80,4 +85,3 @@ const Installation = () => {
 };
 
 export default Installation;
-

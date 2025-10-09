@@ -4,6 +4,7 @@ import useApplication from "../coponents/useApplication";
 import AllApps from "../coponents/AllApps";
 import ApplicationError from "../coponents/ApplicationError";
 import Footer from "../coponents/Footer";
+import AnimatedSpinner from "../coponents/AnimatedSpinner";
 
 const Apps = () => {
   const { application, loading, error } = useApplication();
@@ -16,7 +17,7 @@ const Apps = () => {
       )
     : application;
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <AnimatedSpinner></AnimatedSpinner>;
   if (error) return <p>Error: {error}</p>;
 
   return (
