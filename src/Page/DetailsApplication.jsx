@@ -5,6 +5,7 @@ import DetailsTop from "../coponents/DetailsTop";
 import { saveInstalledApp, getInstalledApps } from "../localStorage/localStorage";
 import { ToastContainer, toast } from 'react-toastify';
 import AppReviewChart from "../coponents/AppReviewChart";
+import Description from "../coponents/Description";
 
 const DetailsApplication = () => {
   const { id } = useParams();
@@ -36,8 +37,11 @@ const DetailsApplication = () => {
 
   return (
     <>
-    <DetailsTop app={app} handleInstall={handleInstall} install={install} />
+    <div className="p-4">
+      <DetailsTop app={app} handleInstall={handleInstall} install={install} />
     <AppReviewChart app={app}></AppReviewChart>
+    <Description app={app}></Description>
+    </div>
     </>
     
     
