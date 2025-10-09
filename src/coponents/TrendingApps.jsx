@@ -14,8 +14,8 @@ const TrendingApps = () => {
 
   return (
     <div className="max-w-[1440px] mx-auto my-10  ">
-      <h1>Trending Apps</h1>
-      <p>Explore All Trending Apps on the Market developed by us</p>
+      <h1 className="text-4xl font-bold text-center">Trending Apps</h1>
+      <p className="text-center mt-6">Explore All Trending Apps on the Market developed by us</p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-10">
         {featureApplication.map((singleApplication) => (
           <ApplicationCard

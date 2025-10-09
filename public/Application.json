@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/6wmhMzN/notecraft.png",
+    "image": "https://images.openai.com/thumbnails/url/HzK2Z3icu5mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5Kzw4xiUx0d3LMTCnxCCuwdAkOdwsJN4hPrKxyLKjIKg9yT3cvMso2MbcsVysGAJ-sJHY",
     "title": "NoteCraft",
     "companyName": "PixelSoft Ltd",
     "description": "A lightweight and beautiful note-taking app with cloud sync and offline mode.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/5nv9C2g/fittrack.png",
+    "image": "https://absolute-plum-jsw1n3td1z.edgeone.app/dog-leash_18399285.png",
     "title": "FitTrack Pro",
     "companyName": "ZenTech Studios",
     "description": "Track your fitness goals, daily steps, and calories with smart AI insights.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/gFhkxFq/foodiesnap.png",
+    "image": "https://present-gold-7nhmfsvpzb.edgeone.app/burger_9987625.png",
     "title": "FoodieSnap",
     "companyName": "TastyWorks Inc",
     "description": "Discover recipes, share your meals, and get personalized diet plans.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/NCCkRkC/taskmaster.png",
+    "image": "https://excellent-beige-4lkv0rs0n5.edgeone.app/client-server_17544071.png",
     "title": "TaskMaster",
     "companyName": "NextGen Apps",
     "description": "Organize your work, manage projects, and stay productive across all devices.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/CBgZj0L/musicflow.png",
+    "image": "https://random-gray-xvdxy03bsq.edgeone.app/processing_8157500.png",
     "title": "MusicFlow",
     "companyName": "Harmony Labs",
     "description": "Stream and download your favorite songs, playlists, and podcasts in one place.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/QFwSK1G/photoblend.png",
+    "image": "https://comparative-cyan-nlt4mmlhla.edgeone.app/camera_11411323.png",
     "title": "PhotoBlend",
     "companyName": "Visionary Co.",
     "description": "Create stunning photo edits and AI-enhanced collages instantly.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/jDpXZxV/travelmate.png",
+    "image": "https://successful-ivory-m6h6rwejej.edgeone.app/traveler_13208823.png",
     "title": "TravelMate",
     "companyName": "ExploreNow Ltd",
     "description": "Plan your trips, book hotels, and discover hidden travel gems worldwide.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/df4Hdbs/readify.png",
+    "image": "https://efficient-gold-t9ct3bw2zn.edgeone.app/monitor_13134345.png",
     "title": "Readify",
     "companyName": "BookNest",
     "description": "Read thousands of eBooks, listen to audiobooks, and track your reading progress.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/0sFbS6Z/budgetbuddy.png",
+    "image": "https://melted-indigo-zh9yebglt7.edgeone.app/market_13246616.png",
     "title": "BudgetBuddy",
     "companyName": "FinWise Inc",
     "description": "Smart expense tracking and savings insights with AI-powered analytics.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/dGqZQ3v/learnly.png",
+    "image": "https://successive-turquoise-v0zvhfmlvl.edgeone.app/learning_3201287.png",
     "title": "Learnly",
     "companyName": "EduVerse",
     "description": "An interactive learning platform offering video lessons, quizzes, and certificates.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co/bmGzjBg/chatterbox.png",
+    "image": "https://frantic-bronze-ifdwbihmbd.edgeone.app/chatterbox.png",
     "title": "ChatterBox",
     "companyName": "WaveNet Inc",
     "description": "A fast, secure chat app with voice, video, and file sharing features.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://i.ibb.co/6JFgk7P/weatherwise.png",
+    "image": "https://sick-ivory-dc3ib5zpnw.edgeone.app/climate.png",
     "title": "WeatherWise",
     "companyName": "SkyLogic Labs",
     "description": "Stay ahead of the weather with real-time forecasts, radar, and alerts.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://i.ibb.co/Xx5PFrP/langmaster.png",
+    "image": "https://frozen-lime-prcbxr2xcx.edgeone.app/eng.png",
     "title": "LangMaster",
     "companyName": "EduGrow",
     "description": "Learn 25+ languages interactively through games, AI chat, and challenges.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.ibb.co/5f5BRBr/gamezone.png",
+    "image": "https://confident-coral-zhpitl9b4x.edgeone.app/video-game.png",
     "title": "GameZone",
     "companyName": "HyperPlay Studio",
     "description": "All-in-one hub for discovering and downloading trending mobile games.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "https://i.ibb.co/Nn3STcj/shoply.png",
+    "image": "https://sparkling-coffee-vtjmu5nlls.edgeone.app/cart.png",
     "title": "Shoply",
     "companyName": "Ecom Labs",
     "description": "A modern shopping platform with secure payments and personalized offers.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.ibb.co/6RY9Z4N/soundscape.png",
+    "image": "https://fresh-chocolate-8ztnn9e7zy.edgeone.app/cloud-music.png",
     "title": "SoundScape",
     "companyName": "EchoWare",
     "description": "Relax with soothing sounds, nature mixes, and deep sleep audio guides.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "https://i.ibb.co/vkQMnkt/cinemahub.png",
+    "image": "https://mighty-amaranth-lcmzibxpvt.edgeone.app/cinema.png",
     "title": "CinemaHub",
     "companyName": "Streamify",
     "description": "Watch trailers, track releases, and discover trending movies & series.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "https://i.ibb.co/5ht6xXf/medicare.png",
+    "image": "https://optimistic-ivory-bfu62bl5zf.edgeone.app/hospital.png",
     "title": "MediCare+",
     "companyName": "HealthSync",
     "description": "Book doctor appointments, track medicines, and access your reports online.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://i.ibb.co/4TNWX9f/creativity.png",
+    "image": "https://certain-white-dm7tkqehls.edgeone.app/brain.png",
     "title": "Creativity+",
     "companyName": "IdeaWorks",
     "description": "Unlock your creativity with daily challenges and design inspiration tools.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "https://i.ibb.co/GMf4WzM/studybuddy.png",
+    "image": "https://efficient-gold-t9ct3bw2zn.edgeone.app/monitor_13134345.png",
     "title": "StudyBuddy",
     "companyName": "Learnify Ltd",
     "description": "Collaborative study planner for students with reminders and goal tracking.",
