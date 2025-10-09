@@ -1,4 +1,4 @@
-#  App Name
+#  8th assignment
 
 A modern React web application built for interactive and responsive user experience.
 
@@ -18,3 +18,11 @@ It includes routing, charts, and toast notifications for smooth user interaction
 bash
 npm install
 npm run dev
+
+## Deployment
+
+Easily deploy using Netlify, Vercel, or Surge.
+
+## Author
+
+Developed by Nazrul Islam
