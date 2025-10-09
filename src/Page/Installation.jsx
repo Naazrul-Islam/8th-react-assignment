@@ -72,8 +72,9 @@ const Installation = () => {
           <InstallationCard key={app.id} app={app} handleUninstall={handleUninstall}></InstallationCard>
         ))}
          <ToastContainer />
-         <Footer></Footer>
+         
       </div>
+      <Footer></Footer>
     </div>
   );
 };
