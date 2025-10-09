@@ -4,12 +4,12 @@ import { Link } from "react-router";
 const AllApps = ({ singleApplication }) => {
   return (
     <Link to={`/apps/${singleApplication.id}`}>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 p-4">
-        <div className="w-full h-40 bg-gray-200">
+      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 p-4 hover:scale-105 transform">
+        <div className="lg:w-[350px]  bg-gray-200">
           <img
             src={singleApplication.image}
             alt={singleApplication.title}
-            className="w-full h-full object-cover"
+            className="lg:w-[300px] lg:h-[300px] object-cover"
           />
         </div>
 
