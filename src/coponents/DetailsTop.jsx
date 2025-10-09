@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
+import { ToastContainer } from "react-toastify";
+import AppReviewChart from "./AppReviewChart";
 
 const DetailsTop = ({ app, handleInstall, install }) => {
   return (
@@ -41,9 +43,11 @@ const DetailsTop = ({ app, handleInstall, install }) => {
           <Link disabled={!install} onClick={() => handleInstall(app)} className="bg-[linear-gradient(90deg,#632EE3_0%,#9F62F2_100%)] text-white px-4 py-2 rounded-lg my-10 items-center">
             {install ? "Installed"  : `Install Now (${app.size} MB)`}
           </Link>
+          <ToastContainer />
         </div>
       </div>
     </div>
+    
   );
 };
 

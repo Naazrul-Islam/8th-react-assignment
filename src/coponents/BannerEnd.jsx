@@ -11,13 +11,13 @@ const BannerEnd = () => {
         <p>21% more than last month</p>
       </div>
       <div className="text-center lg:mr-10 mr-4">
-        <p>Total Downloads</p>
-        <h1 className="lg:text-[4rem] text-3xl font-bold">29.6M</h1>
+        <p>Total Revews</p>
+        <h1 className="lg:text-[4rem] text-3xl font-bold">906K</h1>
         <p>46% more than last month</p>
       </div>
       <div className="text-center lg:mr-2">
-        <p>Total Downloads</p>
-        <h1 className="lg:text-[4rem] text-3xl font-bold">29.6M</h1>
+        <p>Active apps</p>
+        <h1 className="lg:text-[4rem] text-3xl font-bold">132+</h1>
         <p>31% more will lunch</p>
       </div>
       </div>

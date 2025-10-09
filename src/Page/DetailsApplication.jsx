@@ -3,6 +3,8 @@ import { useParams } from "react-router";
 import useApplication from "../coponents/useApplication";
 import DetailsTop from "../coponents/DetailsTop";
 import { saveInstalledApp, getInstalledApps } from "../localStorage/localStorage";
+import { ToastContainer, toast } from 'react-toastify';
+import AppReviewChart from "../coponents/AppReviewChart";
 
 const DetailsApplication = () => {
   const { id } = useParams();
@@ -25,6 +27,7 @@ const DetailsApplication = () => {
   const handleInstall = () => {
     saveInstalledApp(app);
     setInstall(true);
+    toast.success("App Uninstalled!");
   };
 
   
@@ -32,8 +35,13 @@ const DetailsApplication = () => {
   if (error) return <p>Error: {error}</p>;
 
   return (
+    <>
     <DetailsTop app={app} handleInstall={handleInstall} install={install} />
-  );
+    <AppReviewChart app={app}></AppReviewChart>
+    </>
+    
+    
+    );
 };
 
 export default DetailsApplication;

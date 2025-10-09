@@ -12,7 +12,7 @@ const InstallationCard = ({ app, handleUninstall }) => {
         </div>
         <div className="flex flex-col gap-10">
           <h2 className="card-title">{app.title}</h2>
-          <div className="flex gap-10">
+          <div className="flex lg:gap-10 gap-5">
             <h1>{app.downloads}</h1>
             <h1>Rating : {app.ratingAvg}</h1>
             <h1>{app.size}MB</h1>

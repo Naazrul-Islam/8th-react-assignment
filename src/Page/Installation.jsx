@@ -5,20 +5,24 @@ import {
   removeInstalledApp,
 } from "../localStorage/localStorage";
 import InstallationCard from "../coponents/InstallationCard";
+import { ToastContainer, toast } from 'react-toastify';
 
 const Installation = () => {
   const [apps, setApps] = useState([]);
   const [sortType, setSortType] = useState("none");
+  console.log(sortType);
+  
 
   useEffect(() => {
     const stored = getInstalledApps();
     setApps(stored);
   }, []);
 
+
   const handleUninstall = (id) => {
     removeInstalledApp(id);
     setApps((prev) => prev.filter((app) => app.id !== id));
-    alert("App Uninstalled Successfully ✅");
+     toast.success("App Uninstalled!");
   };
 
   const handleSort = (type) => {
@@ -66,6 +70,7 @@ const Installation = () => {
         {apps.map((app) => (
           <InstallationCard key={app.id} app={app} handleUninstall={handleUninstall}></InstallationCard>
         ))}
+         <ToastContainer />
       </div>
     </div>
   );
